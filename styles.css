@@ -1,0 +1,62 @@
+body {
+    font-size: 11px;
+    text-align: center;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+.big-card {
+    background: hsl(219, 45%, 72%);
+    height: 80%;
+    width: 90%;
+    margin: 10% auto;
+    padding: 10px 20px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.outer-div {
+    background: white;
+    border-radius: 20px;
+    width: 30%;
+    height: 80%;
+    margin: 100px auto;
+    padding: 0.5%;
+    text-align: center;
+}
+
+.outer-div img {
+    height: 300px;
+    width: 94%;
+    border-radius: 18px;
+    margin: 4%;
+}
+
+.outer-div h2 {
+    width: 90%;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 2%;
+}
+
+.outer-div p {
+    font-size: 1.2rem;
+    padding: 4%;
+    color: lightgray;
+    font-weight: 400;
+}
+
+footer {
+    background-color: aliceblue;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 426px) {
+    .big-card {
+        margin: 0;
+    }
+
+    .outer-div {
+        width: auto;
+    }
+}
